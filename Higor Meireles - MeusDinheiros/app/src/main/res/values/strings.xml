@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MeusDinheiros</string>
+    <string name="title_activity_lancamentos">LancamentosActivity</string>
+</resources>

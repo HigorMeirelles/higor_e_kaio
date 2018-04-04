@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.higormeirelles.mymoneys.LancamentoCadastroActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOVO LANÇAMENTO"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCadNomeLanc"
+        android:hint="Digite o nome"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCadValorLanc"
+        android:hint="Digite o valor"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCadDescricaoLanc"
+        android:hint="Digite uma pequena descrição"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCadDetalhesLanc"
+        android:hint="Digite todos os detalhes"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCadDataLanc"
+        android:hint="Digite a data do gasto"
+        android:inputType="date"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione a categoria"/>
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/cbCadCategoriaLancamento"></Spinner>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="GRAVAR"
+    android:onClick="gravarLancamento"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a17170099.gestaofinanceira.CadastroLancamento">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Adicionar Lançamento:"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:background="#00CED1"
+        android:paddingTop="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome:"
+        android:id="@+id/txtnome"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor:"
+        android:id="@+id/txtvalor"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Data:"
+        android:id="@+id/txtdata"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spCategoria">
+
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:onClick="btnAdicionar"
+        android:layout_marginTop="100dp"/>
+
+
+
+
+</LinearLayout>

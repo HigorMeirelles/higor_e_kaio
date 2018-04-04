@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuMarcar"
+        android:orderInCategory="100"
+        android:title="Marcar"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuMarcarTodos"
+        android:orderInCategory="100"
+        android:title="Marcar todos"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuDesmarcarTodos"
+        android:orderInCategory="100"
+        android:title="Desmarcar todos"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuExcluir"
+        android:orderInCategory="100"
+        android:title="Excuir"
+        android:showAsAction="never" />
+
+</menu>

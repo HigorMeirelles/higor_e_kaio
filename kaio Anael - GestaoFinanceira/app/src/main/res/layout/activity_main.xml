@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a17170099.gestaofinanceira.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Saldo:"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:background="#00CED1"
+        android:id="@+id/txtSaldo"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="add"
+            android:layout_marginLeft="30dp"
+            android:onClick="btnAdd"
+
+
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="categorias"
+            android:onClick="btnCategoria"
+
+
+
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="inf"/>
+
+
+    </LinearLayout>
+
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lançamentos:"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <ListView
+        android:id="@+id/lst_view_lancamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+    </ListView>
+
+
+
+</LinearLayout>
